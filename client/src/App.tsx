@@ -18,6 +18,7 @@ import { Apps } from './components/Apps/Apps';
 import { Settings } from './components/Settings/Settings';
 import { Bookmarks } from './components/Bookmarks/Bookmarks';
 import { NotificationCenter } from './components/NotificationCenter/NotificationCenter';
+import { WiseFab } from './components/Widgets/WiseWidget/WiseFAB';
 
 // Get config
 store.dispatch<any>(getConfig());
@@ -85,6 +86,7 @@ export const App = (): JSX.Element => {
           <Route path="/bookmarks" component={Bookmarks} />
         </Switch>
       </BrowserRouter>
+      <WiseFab />
       <NotificationCenter />
     </>
   );
