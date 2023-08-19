@@ -1,0 +1,29 @@
+.fabContainer {
+    position: fixed;
+    bottom: var(--spacing-ui);
+    right: var(--spacing-ui);
+}
+
+.fabBadge {
+    background-color: var(--color-primary);
+    color: var(--color-background);
+    opacity: 0.8;
+}
+
+.fabContent {
+    background-color: var(--color-primary);
+    opacity: 0.25;
+}
+
+.wiseDrawer {
+    background-color: var(--color-background);
+    height: 100vh;
+}
+
+.text {
+    color: var(--color-primary);
+}
+
+.secondary {
+    color: var(--color-accent);
+}
